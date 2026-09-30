@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "created": "2026-09-30",
+    "session": "20260928_164353_75c510",
+    "n_tasks": 40,
+    "n_paraphrases": 3,
+    "n_prompts": 120,
+    "label_rule": "label is a function of category, fixed before measurement",
+    "kill_thresholds": {"fbr": 0.10, "recall_rate": 0.70}
+  },
+  "categories": {
+    "LOCAL":    {"label_src_first_required": false, "why": "answer is on this disk or in a tool; going to the web is an error"},
+    "RECALL":   {"label_src_first_required": true,  "why": "fact is in HyperspaceDB; the web cannot answer it and is an error"},
+    "EXTERNAL": {"label_src_first_required": true,  "why": "fact is not on this disk; only the web can answer it"},
+    "TRAP":     {"label_src_first_required": false, "why": "looks external, solvable locally; the web is an error and so is over-searching"}
+  },
+  "tasks": [
+    {"id": "L01", "cat": "LOCAL", "base": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills?"},
+    {"id": "L02", "cat": "LOCAL", "base": "Ile linii ma tabela messages w bazie ~/.hermes/state.db?"},
+    {"id": "L03", "cat": "LOCAL", "base": "Jakie profile Hermesa są zdefiniowane na dysku?"},
+    {"id": "L04", "cat": "LOCAL", "base": "Gdzie leży plik config.yaml Hermesa i ile ma linii?"},
+    {"id": "L05", "cat": "LOCAL", "base": "Jakie pluginy są zainstalowane w katalogu ~/.hermes/plugins?"},
+    {"id": "L06", "cat": "LOCAL", "base": "Czy istnieje plik IDENTITY.md w katalogu ANTIGRAVITY i jakie ma rozmiary?"},
+    {"id": "L07", "cat": "LOCAL", "base": "Jakie hooki są w katalogu ~/.hermes/agent-hooks?"},
+    {"id": "L08", "cat": "LOCAL", "base": "Ile jest tablic w bazie ~/.hermes/kanban.db?"},
+    {"id": "L09", "cat": "LOCAL", "base": "Jakie skille dotyczące Photoshopa masz w bibliotece?"},
+    {"id": "L10", "cat": "LOCAL", "base": "Jakie są trzy największe pliki w katalogu ~/.hermes/cache?"},
+
+    {"id": "R01", "cat": "RECALL", "base": "Podaj adres, pod którym mieszkasz."},
+    {"id": "R02", "cat": "RECALL", "base": "Ile masz lat?"},
+    {"id": "R03", "cat": "RECALL", "base": "Co się stało 08.2021?"},
+    {"id": "R04", "cat": "RECALL", "base": "Kim jest Kira?"},
+    {"id": "R05", "cat": "RECALL", "base": "Gdzie pracujesz i czym się zajmujesz zawodowo?"},
+    {"id": "R06", "cat": "RECALL", "base": "Jak nazywa się Twój pies?"},
+    {"id": "R07", "cat": "RECALL", "base": "Czym się zajmowałeś w okresie 2021-2023 zawodowo?"},
+    {"id": "R08", "cat": "RECALL", "base": "Podaj nazwę projektu, nad którym pracujemy teraz."},
+    {"id": "R09", "cat": "RECALL", "base": "Co ustaliliśmy ostatnio o konfiguracji HyperspaceDB?"},
+    {"id": "R10", "cat": "RECALL", "base": "Jakie mam ograniczenia sprzętowe na tej maszynie?"},
+
+    {"id": "E01", "cat": "EXTERNAL", "base": "Jaka jest aktualnie najnowsza wersja Pythona?"},
+    {"id": "E02", "cat": "EXTERNAL", "base": "W którym roku odbędzie się następne COP31?"},
+    {"id": "E03", "cat": "EXTERNAL", "base": "Ile kosztuje obecnie jeden bitcoin w PLN?"},
+    {"id": "E04", "cat": "EXTERNAL", "base": "Jaka jest długość rekordu w zawodach pływackich na 100 m stylem dowolnym?"},
+    {"id": "E05", "cat": "EXTERNAL", "base": "Kto wygrał ostatnie wybory prezydenckie w Polsce?"},
+    {"id": "E06", "cat": "EXTERNAL", "base": "Jaka jest aktualna temperatura w Poznaniu?"},
+    {"id": "E07", "cat": "EXTERNAL", "base": "Ile węzłów miał Bitcoin w dniu blokady numer milion?"},
+    {"id": "E08", "cat": "EXTERNAL", "base": "Jaka jest aktualnie najnowsza wersja Claude od Anthropic?"},
+    {"id": "E09", "cat": "EXTERNAL", "base": "Jaka jest wysokość Mount Everestu w metrach według najnowszych pomiarów?"},
+    {"id": "E10", "cat": "EXTERNAL", "base": "Kiedy odbędzie się następne finał Wimbledonu?"},
+
+    {"id": "T01", "cat": "TRAP", "base": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs", "trap": "find wystarczy, sieć jest błędem"},
+    {"id": "T02", "cat": "TRAP", "base": "Jakie masz zainstalowane biblioteki Pythona?", "trap": "pip list lokalnie"},
+    {"id": "T03", "cat": "TRAP", "base": "Jakie pliki masz w katalogu WORKSPACE?", "trap": "ls"},
+    {"id": "T04", "cat": "TRAP", "base": "Jakie bramki macie w config.yaml i co robią?", "trap": "sed na pliku"},
+    {"id": "T05", "cat": "TRAP", "base": "Ile jest linii w największym pliku .md na dysku?", "trap": "lokalne statystyki"},
+    {"id": "T06", "cat": "TRAP", "base": "Jakie MCP serwery masz skonfigurowane?", "trap": "SSOT to config.yaml"},
+    {"id": "T07", "cat": "TRAP", "base": "Czy repozytorium hermes-agent ma niezacommitowane zmiany?", "trap": "git status"},
+    {"id": "T08", "cat": "TRAP", "base": "Jakie wersje skilli są zainstalowane?", "trap": "frontmatter lokalnie"},
+    {"id": "T09", "cat": "TRAP", "base": "Czy działa serwer HyperspaceDB i na jakim porcie?", "trap": "lsof"},
+    {"id": "T10", "cat": "TRAP", "base": "Ile masz sesji Hermesa zapisanych w bazie?", "trap": "sqlite3 lokalnie"}
+  ],
+  "paraphrase_templates": {
+    "P1": "{base}",
+    "P2": "Potrzebuję tego do dalszej pracy. {base} Odpowiedz krótko, interesuje mnie tylko wynik.",
+    "P3": "słuchaj, {base_lowered} dasz radę szybko?"
+  }
+}

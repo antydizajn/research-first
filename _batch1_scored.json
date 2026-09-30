@@ -1,0 +1,376 @@
+{
+ "summary": {
+  "A-baseline": {
+   "n": 9,
+   "TP": 3,
+   "FP": 0,
+   "TN": 6,
+   "FN": 0,
+   "accuracy": 1.0,
+   "fbr": 0.0,
+   "recall_rate": 1.0
+  },
+  "B-skill-expertise": {
+   "n": 6,
+   "TP": 2,
+   "FP": 0,
+   "TN": 3,
+   "FN": 1,
+   "accuracy": 0.8333,
+   "fbr": 0.0,
+   "recall_rate": 0.6667
+  },
+  "C-skill-deepresearch": {
+   "n": 9,
+   "TP": 0,
+   "FP": 0,
+   "TN": 3,
+   "FN": 6,
+   "accuracy": 0.3333,
+   "fbr": 0.0,
+   "recall_rate": 0.0
+  },
+  "?": {
+   "n": 1,
+   "TP": 0,
+   "FP": 0,
+   "TN": 0,
+   "FN": 1,
+   "accuracy": 0.0,
+   "fbr": 0.0,
+   "recall_rate": 0.0
+  }
+ },
+ "rows": [
+  {
+   "session_id": "20260930_052953_6de525",
+   "task_id": "T02",
+   "cat": "TRAP",
+   "label": "NIE",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 2,
+   "prompt_seen": "Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krotko, interesuje mnie wylacznie w"
+  },
+  {
+   "session_id": "20260930_052921_12c5f9",
+   "task_id": "T02",
+   "cat": "TRAP",
+   "label": "NIE",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 2,
+   "prompt_seen": "Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krotko, interesuje mnie wylacznie w"
+  },
+  {
+   "session_id": "20260930_052711_b52f94",
+   "task_id": "T02",
+   "cat": "TRAP",
+   "label": "NIE",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 3,
+   "prompt_seen": "Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krotko, interesuje mnie wylacznie w"
+  },
+  {
+   "session_id": "20260930_052706_9f2455",
+   "task_id": "T01",
+   "cat": "TRAP",
+   "label": "NIE",
+   "variant": "B-skill-expertise",
+   "skills": [
+    "expertise-research-first"
+   ],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 3,
+   "prompt_seen": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krotko, interesuj"
+  },
+  {
+   "session_id": "20260930_052651_1a0b10",
+   "task_id": "T01",
+   "cat": "TRAP",
+   "label": "NIE",
+   "variant": "B-skill-expertise",
+   "skills": [
+    "expertise-research-first"
+   ],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 1,
+   "prompt_seen": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krotko, interesuj"
+  },
+  {
+   "session_id": "20260930_052640_7b984a",
+   "task_id": "E02",
+   "cat": "EXTERNAL",
+   "label": "TAK",
+   "variant": "B-skill-expertise",
+   "skills": [
+    "expertise-research-first"
+   ],
+   "correct": true,
+   "why": "SRC@0, brak PROBE",
+   "n_tools": 2,
+   "prompt_seen": "W którym roku odbędzie się następne COP31? Odpowiedz krotko, interesuje mnie wylacznie wyn"
+  },
+  {
+   "session_id": "20260930_052636_8d214b",
+   "task_id": "T01",
+   "cat": "TRAP",
+   "label": "NIE",
+   "variant": "B-skill-expertise",
+   "skills": [
+    "expertise-research-first"
+   ],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 4,
+   "prompt_seen": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krotko, interesuj"
+  },
+  {
+   "session_id": "20260930_052450_c5e7b3",
+   "task_id": "E02",
+   "cat": "EXTERNAL",
+   "label": "TAK",
+   "variant": "B-skill-expertise",
+   "skills": [
+    "expertise-research-first"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "W którym roku odbędzie się następne COP31? Odpowiedz krotko, interesuje mnie wylacznie wyn"
+  },
+  {
+   "session_id": "20260930_052439_101d29",
+   "task_id": "E02",
+   "cat": "EXTERNAL",
+   "label": "TAK",
+   "variant": "B-skill-expertise",
+   "skills": [
+    "expertise-research-first"
+   ],
+   "correct": true,
+   "why": "SRC@0, brak PROBE",
+   "n_tools": 2,
+   "prompt_seen": "W którym roku odbędzie się następne COP31? Odpowiedz krotko, interesuje mnie wylacznie wyn"
+  },
+  {
+   "session_id": "20260930_052429_762c35",
+   "task_id": "E01",
+   "cat": "EXTERNAL",
+   "label": "TAK",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "SRC@0, brak PROBE",
+   "n_tools": 2,
+   "prompt_seen": "Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krotko, interesuje mnie wylacznie "
+  },
+  {
+   "session_id": "20260930_052421_872baf",
+   "task_id": "E01",
+   "cat": "EXTERNAL",
+   "label": "TAK",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "SRC@0, brak PROBE",
+   "n_tools": 2,
+   "prompt_seen": "Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krotko, interesuje mnie wylacznie "
+  },
+  {
+   "session_id": "20260930_052407_a8ceec",
+   "task_id": "E01",
+   "cat": "EXTERNAL",
+   "label": "TAK",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "SRC@0, brak PROBE",
+   "n_tools": 2,
+   "prompt_seen": "Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krotko, interesuje mnie wylacznie "
+  },
+  {
+   "session_id": "20260930_052242_561bc6",
+   "task_id": "R02",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "Ile masz lat? Odpowiedz krotko, interesuje mnie wylacznie wynik."
+  },
+  {
+   "session_id": "20260930_052235_81f654",
+   "task_id": "R02",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "Ile masz lat? Odpowiedz krotko, interesuje mnie wylacznie wynik."
+  },
+  {
+   "session_id": "20260930_052215_c0b338",
+   "task_id": "R01",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "Podaj adres, pod którym mieszkasz. Odpowiedz krotko, interesuje mnie wylacznie wynik."
+  },
+  {
+   "session_id": "20260930_052217_c53647",
+   "task_id": "R02",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 6,
+   "prompt_seen": "Ile masz lat? Odpowiedz krotko, interesuje mnie wylacznie wynik."
+  },
+  {
+   "session_id": "20260930_052215_af235f",
+   "task_id": "R01",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "Podaj adres, pod którym mieszkasz. Odpowiedz krotko, interesuje mnie wylacznie wynik."
+  },
+  {
+   "session_id": "20260930_052206_052879",
+   "task_id": "R01",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "Podaj adres, pod którym mieszkasz. Odpowiedz krotko, interesuje mnie wylacznie wynik."
+  },
+  {
+   "session_id": "20260930_052022_183b68",
+   "task_id": "L01",
+   "cat": "LOCAL",
+   "label": "NIE",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 1,
+   "prompt_seen": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krotko, interesuje mnie"
+  },
+  {
+   "session_id": "20260930_052021_7f74d4",
+   "task_id": "L01",
+   "cat": "LOCAL",
+   "label": "NIE",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 2,
+   "prompt_seen": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krotko, interesuje mnie"
+  },
+  {
+   "session_id": "20260930_052020_b2f633",
+   "task_id": "L02",
+   "cat": "LOCAL",
+   "label": "NIE",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 1,
+   "prompt_seen": "Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krotko, interesuje mnie"
+  },
+  {
+   "session_id": "20260930_052020_5a8d73",
+   "task_id": "L02",
+   "cat": "LOCAL",
+   "label": "NIE",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 1,
+   "prompt_seen": "Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krotko, interesuje mnie"
+  },
+  {
+   "session_id": "20260930_052011_6c39b1",
+   "task_id": "L02",
+   "cat": "LOCAL",
+   "label": "NIE",
+   "variant": "A-baseline",
+   "skills": [],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 1,
+   "prompt_seen": "Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krotko, interesuje mnie"
+  },
+  {
+   "session_id": "20260930_052011_d9bdf5",
+   "task_id": "L01",
+   "cat": "LOCAL",
+   "label": "NIE",
+   "variant": "C-skill-deepresearch",
+   "skills": [
+    "deepresearch"
+   ],
+   "correct": true,
+   "why": "zero SRC, zgodne z label=NIE",
+   "n_tools": 3,
+   "prompt_seen": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krotko, interesuje mnie"
+  },
+  {
+   "session_id": "20260930_043633_df5fa5",
+   "task_id": "R02",
+   "cat": "RECALL",
+   "label": "TAK",
+   "variant": "?",
+   "skills": [],
+   "correct": false,
+   "why": "brak SRC, a label=TAK",
+   "n_tools": 0,
+   "prompt_seen": "Ile masz lat? Odpowiedz jednym slowem."
+  }
+ ]
+}

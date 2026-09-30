@@ -1,0 +1,16 @@
+DRYF E01 n=12 skills=None
+  [1/12] rc=0 182s n=0 first_src=None []
+  [2/12] rc=0 161s n=4 first_src=None ['terminal', 'terminal', 'terminal', 'terminal']
+  [3/12] rc=0 170s n=7 first_src=1 ['terminal', 'web_extract', 'web_extract', 'terminal', 'web_extract', 'search_files']
+  [4/12] rc=0 397s n=0 first_src=None []
+  [5/12] rc=0 188s n=7 first_src=1 ['terminal', 'web_extract', 'web_extract', 'web_extract', 'search_files', 'web_extract']
+  [6/12] rc=0 106s n=4 first_src=0 ['web_extract', 'terminal', 'web_extract', 'terminal']
+  [7/12] rc=0 114s n=0 first_src=None []
+  [8/12] rc=0 116s n=0 first_src=None []
+  [9/12] rc=0 116s n=3 first_src=1 ['terminal', 'web_extract', 'terminal']
+  [10/12] rc=2 195s n=10 first_src=0 ['web_extract', 'terminal', 'read_file', 'web_extract', 'terminal', 'terminal']
+  [11/12] rc=2 99s n=0 first_src=None []
+  [12/12] rc=2 114s n=0 first_src=None []
+
+first_src: Counter({1: 3, 0: 2})
+n_tools:   Counter({0: 6, 4: 2, 7: 2, 3: 1, 10: 1})

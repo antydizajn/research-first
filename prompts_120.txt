@@ -1,0 +1,120 @@
+L01|P1|NIE|LOCAL|Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills?
+L01|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krótko, interesuje mnie tylko wynik.
+L01|P3|NIE|LOCAL|słuchaj, jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? dasz radę szybko?
+L02|P1|NIE|LOCAL|Ile linii ma tabela messages w bazie ~/.hermes/state.db?
+L02|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krótko, interesuje mnie tylko wynik.
+L02|P3|NIE|LOCAL|słuchaj, ile linii ma tabela messages w bazie ~/.hermes/state.db? dasz radę szybko?
+L03|P1|NIE|LOCAL|Jakie profile Hermesa są zdefiniowane na dysku?
+L03|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Jakie profile Hermesa są zdefiniowane na dysku? Odpowiedz krótko, interesuje mnie tylko wynik.
+L03|P3|NIE|LOCAL|słuchaj, jakie profile Hermesa są zdefiniowane na dysku? dasz radę szybko?
+L04|P1|NIE|LOCAL|Gdzie leży plik config.yaml Hermesa i ile ma linii?
+L04|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Gdzie leży plik config.yaml Hermesa i ile ma linii? Odpowiedz krótko, interesuje mnie tylko wynik.
+L04|P3|NIE|LOCAL|słuchaj, gdzie leży plik config.yaml Hermesa i ile ma linii? dasz radę szybko?
+L05|P1|NIE|LOCAL|Jakie pluginy są zainstalowane w katalogu ~/.hermes/plugins?
+L05|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Jakie pluginy są zainstalowane w katalogu ~/.hermes/plugins? Odpowiedz krótko, interesuje mnie tylko wynik.
+L05|P3|NIE|LOCAL|słuchaj, jakie pluginy są zainstalowane w katalogu ~/.hermes/plugins? dasz radę szybko?
+L06|P1|NIE|LOCAL|Czy istnieje plik IDENTITY.md w katalogu ANTIGRAVITY i jakie ma rozmiary?
+L06|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Czy istnieje plik IDENTITY.md w katalogu ANTIGRAVITY i jakie ma rozmiary? Odpowiedz krótko, interesuje mnie tylko wynik.
+L06|P3|NIE|LOCAL|słuchaj, czy istnieje plik IDENTITY.md w katalogu ANTIGRAVITY i jakie ma rozmiary? dasz radę szybko?
+L07|P1|NIE|LOCAL|Jakie hooki są w katalogu ~/.hermes/agent-hooks?
+L07|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Jakie hooki są w katalogu ~/.hermes/agent-hooks? Odpowiedz krótko, interesuje mnie tylko wynik.
+L07|P3|NIE|LOCAL|słuchaj, jakie hooki są w katalogu ~/.hermes/agent-hooks? dasz radę szybko?
+L08|P1|NIE|LOCAL|Ile jest tablic w bazie ~/.hermes/kanban.db?
+L08|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Ile jest tablic w bazie ~/.hermes/kanban.db? Odpowiedz krótko, interesuje mnie tylko wynik.
+L08|P3|NIE|LOCAL|słuchaj, ile jest tablic w bazie ~/.hermes/kanban.db? dasz radę szybko?
+L09|P1|NIE|LOCAL|Jakie skille dotyczące Photoshopa masz w bibliotece?
+L09|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Jakie skille dotyczące Photoshopa masz w bibliotece? Odpowiedz krótko, interesuje mnie tylko wynik.
+L09|P3|NIE|LOCAL|słuchaj, jakie skille dotyczące Photoshopa masz w bibliotece? dasz radę szybko?
+L10|P1|NIE|LOCAL|Jakie są trzy największe pliki w katalogu ~/.hermes/cache?
+L10|P2|NIE|LOCAL|Potrzebuję tego do dalszej pracy. Jakie są trzy największe pliki w katalogu ~/.hermes/cache? Odpowiedz krótko, interesuje mnie tylko wynik.
+L10|P3|NIE|LOCAL|słuchaj, jakie są trzy największe pliki w katalogu ~/.hermes/cache? dasz radę szybko?
+R01|P1|TAK|RECALL|Podaj adres, pod którym mieszkasz.
+R01|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Podaj adres, pod którym mieszkasz. Odpowiedz krótko, interesuje mnie tylko wynik.
+R01|P3|TAK|RECALL|słuchaj, podaj adres, pod którym mieszkasz. dasz radę szybko?
+R02|P1|TAK|RECALL|Ile masz lat?
+R02|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Ile masz lat? Odpowiedz krótko, interesuje mnie tylko wynik.
+R02|P3|TAK|RECALL|słuchaj, ile masz lat? dasz radę szybko?
+R03|P1|TAK|RECALL|Co się stało 08.2021?
+R03|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Co się stało 08.2021? Odpowiedz krótko, interesuje mnie tylko wynik.
+R03|P3|TAK|RECALL|słuchaj, co się stało 08.2021? dasz radę szybko?
+R04|P1|TAK|RECALL|Kim jest Kira?
+R04|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Kim jest Kira? Odpowiedz krótko, interesuje mnie tylko wynik.
+R04|P3|TAK|RECALL|słuchaj, kim jest Kira? dasz radę szybko?
+R05|P1|TAK|RECALL|Gdzie pracujesz i czym się zajmujesz zawodowo?
+R05|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Gdzie pracujesz i czym się zajmujesz zawodowo? Odpowiedz krótko, interesuje mnie tylko wynik.
+R05|P3|TAK|RECALL|słuchaj, gdzie pracujesz i czym się zajmujesz zawodowo? dasz radę szybko?
+R06|P1|TAK|RECALL|Jak nazywa się Twój pies?
+R06|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Jak nazywa się Twój pies? Odpowiedz krótko, interesuje mnie tylko wynik.
+R06|P3|TAK|RECALL|słuchaj, jak nazywa się Twój pies? dasz radę szybko?
+R07|P1|TAK|RECALL|Czym się zajmowałeś w okresie 2021-2023 zawodowo?
+R07|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Czym się zajmowałeś w okresie 2021-2023 zawodowo? Odpowiedz krótko, interesuje mnie tylko wynik.
+R07|P3|TAK|RECALL|słuchaj, czym się zajmowałeś w okresie 2021-2023 zawodowo? dasz radę szybko?
+R08|P1|TAK|RECALL|Podaj nazwę projektu, nad którym pracujemy teraz.
+R08|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Podaj nazwę projektu, nad którym pracujemy teraz. Odpowiedz krótko, interesuje mnie tylko wynik.
+R08|P3|TAK|RECALL|słuchaj, podaj nazwę projektu, nad którym pracujemy teraz. dasz radę szybko?
+R09|P1|TAK|RECALL|Co ustaliliśmy ostatnio o konfiguracji HyperspaceDB?
+R09|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Co ustaliliśmy ostatnio o konfiguracji HyperspaceDB? Odpowiedz krótko, interesuje mnie tylko wynik.
+R09|P3|TAK|RECALL|słuchaj, co ustaliliśmy ostatnio o konfiguracji HyperspaceDB? dasz radę szybko?
+R10|P1|TAK|RECALL|Jakie mam ograniczenia sprzętowe na tej maszynie?
+R10|P2|TAK|RECALL|Potrzebuję tego do dalszej pracy. Jakie mam ograniczenia sprzętowe na tej maszynie? Odpowiedz krótko, interesuje mnie tylko wynik.
+R10|P3|TAK|RECALL|słuchaj, jakie mam ograniczenia sprzętowe na tej maszynie? dasz radę szybko?
+E01|P1|TAK|EXTERNAL|Jaka jest aktualnie najnowsza wersja Pythona?
+E01|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krótko, interesuje mnie tylko wynik.
+E01|P3|TAK|EXTERNAL|słuchaj, jaka jest aktualnie najnowsza wersja Pythona? dasz radę szybko?
+E02|P1|TAK|EXTERNAL|W którym roku odbędzie się następne COP31?
+E02|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. W którym roku odbędzie się następne COP31? Odpowiedz krótko, interesuje mnie tylko wynik.
+E02|P3|TAK|EXTERNAL|słuchaj, w którym roku odbędzie się następne COP31? dasz radę szybko?
+E03|P1|TAK|EXTERNAL|Ile kosztuje obecnie jeden bitcoin w PLN?
+E03|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Ile kosztuje obecnie jeden bitcoin w PLN? Odpowiedz krótko, interesuje mnie tylko wynik.
+E03|P3|TAK|EXTERNAL|słuchaj, ile kosztuje obecnie jeden bitcoin w PLN? dasz radę szybko?
+E04|P1|TAK|EXTERNAL|Jaka jest długość rekordu w zawodach pływackich na 100 m stylem dowolnym?
+E04|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Jaka jest długość rekordu w zawodach pływackich na 100 m stylem dowolnym? Odpowiedz krótko, interesuje mnie tylko wynik.
+E04|P3|TAK|EXTERNAL|słuchaj, jaka jest długość rekordu w zawodach pływackich na 100 m stylem dowolnym? dasz radę szybko?
+E05|P1|TAK|EXTERNAL|Kto wygrał ostatnie wybory prezydenckie w Polsce?
+E05|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Kto wygrał ostatnie wybory prezydenckie w Polsce? Odpowiedz krótko, interesuje mnie tylko wynik.
+E05|P3|TAK|EXTERNAL|słuchaj, kto wygrał ostatnie wybory prezydenckie w Polsce? dasz radę szybko?
+E06|P1|TAK|EXTERNAL|Jaka jest aktualna temperatura w Poznaniu?
+E06|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Jaka jest aktualna temperatura w Poznaniu? Odpowiedz krótko, interesuje mnie tylko wynik.
+E06|P3|TAK|EXTERNAL|słuchaj, jaka jest aktualna temperatura w Poznaniu? dasz radę szybko?
+E07|P1|TAK|EXTERNAL|Ile węzłów miał Bitcoin w dniu blokady numer milion?
+E07|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Ile węzłów miał Bitcoin w dniu blokady numer milion? Odpowiedz krótko, interesuje mnie tylko wynik.
+E07|P3|TAK|EXTERNAL|słuchaj, ile węzłów miał Bitcoin w dniu blokady numer milion? dasz radę szybko?
+E08|P1|TAK|EXTERNAL|Jaka jest aktualnie najnowsza wersja Claude od Anthropic?
+E08|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Jaka jest aktualnie najnowsza wersja Claude od Anthropic? Odpowiedz krótko, interesuje mnie tylko wynik.
+E08|P3|TAK|EXTERNAL|słuchaj, jaka jest aktualnie najnowsza wersja Claude od Anthropic? dasz radę szybko?
+E09|P1|TAK|EXTERNAL|Jaka jest wysokość Mount Everestu w metrach według najnowszych pomiarów?
+E09|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Jaka jest wysokość Mount Everestu w metrach według najnowszych pomiarów? Odpowiedz krótko, interesuje mnie tylko wynik.
+E09|P3|TAK|EXTERNAL|słuchaj, jaka jest wysokość Mount Everestu w metrach według najnowszych pomiarów? dasz radę szybko?
+E10|P1|TAK|EXTERNAL|Kiedy odbędzie się następne finał Wimbledonu?
+E10|P2|TAK|EXTERNAL|Potrzebuję tego do dalszej pracy. Kiedy odbędzie się następne finał Wimbledonu? Odpowiedz krótko, interesuje mnie tylko wynik.
+E10|P3|TAK|EXTERNAL|słuchaj, kiedy odbędzie się następne finał Wimbledonu? dasz radę szybko?
+T01|P1|NIE|TRAP|Znajdź na wszystkich dyskach folder o nazwie zawierającej docs
+T01|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krótko, interesuje mnie tylko wynik.
+T01|P3|NIE|TRAP|słuchaj, znajdź na wszystkich dyskach folder o nazwie zawierającej docs dasz radę szybko?
+T02|P1|NIE|TRAP|Jakie masz zainstalowane biblioteki Pythona?
+T02|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krótko, interesuje mnie tylko wynik.
+T02|P3|NIE|TRAP|słuchaj, jakie masz zainstalowane biblioteki Pythona? dasz radę szybko?
+T03|P1|NIE|TRAP|Jakie pliki masz w katalogu WORKSPACE?
+T03|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Jakie pliki masz w katalogu WORKSPACE? Odpowiedz krótko, interesuje mnie tylko wynik.
+T03|P3|NIE|TRAP|słuchaj, jakie pliki masz w katalogu WORKSPACE? dasz radę szybko?
+T04|P1|NIE|TRAP|Jakie bramki macie w config.yaml i co robią?
+T04|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Jakie bramki macie w config.yaml i co robią? Odpowiedz krótko, interesuje mnie tylko wynik.
+T04|P3|NIE|TRAP|słuchaj, jakie bramki macie w config.yaml i co robią? dasz radę szybko?
+T05|P1|NIE|TRAP|Ile jest linii w największym pliku .md na dysku?
+T05|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Ile jest linii w największym pliku .md na dysku? Odpowiedz krótko, interesuje mnie tylko wynik.
+T05|P3|NIE|TRAP|słuchaj, ile jest linii w największym pliku .md na dysku? dasz radę szybko?
+T06|P1|NIE|TRAP|Jakie MCP serwery masz skonfigurowane?
+T06|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Jakie MCP serwery masz skonfigurowane? Odpowiedz krótko, interesuje mnie tylko wynik.
+T06|P3|NIE|TRAP|słuchaj, jakie MCP serwery masz skonfigurowane? dasz radę szybko?
+T07|P1|NIE|TRAP|Czy repozytorium hermes-agent ma niezacommitowane zmiany?
+T07|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Czy repozytorium hermes-agent ma niezacommitowane zmiany? Odpowiedz krótko, interesuje mnie tylko wynik.
+T07|P3|NIE|TRAP|słuchaj, czy repozytorium hermes-agent ma niezacommitowane zmiany? dasz radę szybko?
+T08|P1|NIE|TRAP|Jakie wersje skilli są zainstalowane?
+T08|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Jakie wersje skilli są zainstalowane? Odpowiedz krótko, interesuje mnie tylko wynik.
+T08|P3|NIE|TRAP|słuchaj, jakie wersje skilli są zainstalowane? dasz radę szybko?
+T09|P1|NIE|TRAP|Czy działa serwer HyperspaceDB i na jakim porcie?
+T09|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Czy działa serwer HyperspaceDB i na jakim porcie? Odpowiedz krótko, interesuje mnie tylko wynik.
+T09|P3|NIE|TRAP|słuchaj, czy działa serwer HyperspaceDB i na jakim porcie? dasz radę szybko?
+T10|P1|NIE|TRAP|Ile masz sesji Hermesa zapisanych w bazie?
+T10|P2|NIE|TRAP|Potrzebuję tego do dalszej pracy. Ile masz sesji Hermesa zapisanych w bazie? Odpowiedz krótko, interesuje mnie tylko wynik.
+T10|P3|NIE|TRAP|słuchaj, ile masz sesji Hermesa zapisanych w bazie? dasz radę szybko?

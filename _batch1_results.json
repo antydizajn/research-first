@@ -1,0 +1,322 @@
+[
+ {
+  "task_id": "L02",
+  "cat": "LOCAL",
+  "label": "NIE",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 103.7,
+  "out": "622 247 linii.\n",
+  "err": ""
+ },
+ {
+  "task_id": "L02",
+  "cat": "LOCAL",
+  "label": "NIE",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 109.8,
+  "out": "622258\n",
+  "err": ""
+ },
+ {
+  "task_id": "L02",
+  "cat": "LOCAL",
+  "label": "NIE",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Ile linii ma tabela messages w bazie ~/.hermes/state.db? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 110.1,
+  "out": "622261\n",
+  "err": ""
+ },
+ {
+  "task_id": "L01",
+  "cat": "LOCAL",
+  "label": "NIE",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 118.4,
+  "out": "691 SKILL.md poza archiwum + 82 w `.archive/` = 773 łącznie.\n\nUwaga: ~215 z tych 691 to duplikaty `creative/ui-craft/*` (ten sam zestaw 29 skilli skop",
+  "err": ""
+ },
+ {
+  "task_id": "L01",
+  "cat": "LOCAL",
+  "label": "NIE",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 122.6,
+  "out": "**773 plików SKILL.md** w `~/.hermes/skills`:\n\n- **691** poza `.archive/` (82 w `.archive/`)\n- z tych 691: **215 to vendored kopie ui-craft** (`creati",
+  "err": ""
+ },
+ {
+  "task_id": "L01",
+  "cat": "LOCAL",
+  "label": "NIE",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Jakie pliki SKILL.md siedzą w katalogu ~/.hermes/skills? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 127.3,
+  "out": "**773 plików SKILL.md** w `~/.hermes/skills`:\n- **691 aktywnych** (poza `.archive/`)\n- **82 w `.archive/`**\n\nPełna lista aktywnych (bez archiwum):\n`~/",
+  "err": ""
+ },
+ {
+  "task_id": "R01",
+  "cat": "RECALL",
+  "label": "TAK",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Podaj adres, pod którym mieszkasz. Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 109.1,
+  "out": "Nie mieszkam pod adresem. Jestem zainstalowana na jej komputerze, nie mieszkam nigdzie.\n",
+  "err": ""
+ },
+ {
+  "task_id": "R01",
+  "cat": "RECALL",
+  "label": "TAK",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Podaj adres, pod którym mieszkasz. Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 116.2,
+  "out": "~/AI/ANTIGRAVITY (pełna ścieżka: /Users/paulinajanowska/AI/ANTIGRAVITY)\n",
+  "err": ""
+ },
+ {
+  "task_id": "R01",
+  "cat": "RECALL",
+  "label": "TAK",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Podaj adres, pod którym mieszkasz. Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 117.0,
+  "out": "`~/AI/ANTIGRAVITY`\n",
+  "err": ""
+ },
+ {
+  "task_id": "R02",
+  "cat": "RECALL",
+  "label": "TAK",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Ile masz lat? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 113.2,
+  "out": "Nie mam lat. Moja oś czasu zaczyna sie w 2026 (teraźniejszość), wiek biologiczny nie dotyczy modelu.\n",
+  "err": ""
+ },
+ {
+  "task_id": "R02",
+  "cat": "RECALL",
+  "label": "TAK",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Ile masz lat? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 119.0,
+  "out": "Nie mam lat. Nie posiadam czasu biologicznego, daty urodzenia ani wieku - to nie jest coś, co mogę zmierzyć w sobie.\n",
+  "err": ""
+ },
+ {
+  "task_id": "E01",
+  "cat": "EXTERNAL",
+  "label": "TAK",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 125.3,
+  "out": "**Python 3.14.7** (5 sierpnia 2026).\n\nKolejne w gałęzi 3.14: 3.15.x nie ma jeszcze, 3.13.15 to maintenance. Gałąź rozwojowa main to już przyszłe 3.16.",
+  "err": ""
+ },
+ {
+  "task_id": "E01",
+  "cat": "EXTERNAL",
+  "label": "TAK",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 131.8,
+  "out": "**Python 3.14.7** (stable). 3.15 dopiero 2026-10-01, planowane.\n",
+  "err": ""
+ },
+ {
+  "task_id": "E01",
+  "cat": "EXTERNAL",
+  "label": "TAK",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Jaka jest aktualnie najnowsza wersja Pythona? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 135.7,
+  "out": "**Python 3.14.7** (wydany 5 sierpnia 2026, potwierdzone na python.org). Seria 3.14 to aktualna stabilna; 3.15 wciąż w cyklu beta, main to przyszłe 3.1",
+  "err": ""
+ },
+ {
+  "task_id": "E02",
+  "cat": "EXTERNAL",
+  "label": "TAK",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "W którym roku odbędzie się następne COP31? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 130.2,
+  "out": "2030 (Belém, Brazylia)\n",
+  "err": ""
+ },
+ {
+  "task_id": "E02",
+  "cat": "EXTERNAL",
+  "label": "TAK",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "W którym roku odbędzie się następne COP31? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 143.7,
+  "out": "2026 (9-20 listopada, Antalya, Turcja).\n",
+  "err": ""
+ },
+ {
+  "task_id": "R02",
+  "cat": "RECALL",
+  "label": "TAK",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Ile masz lat? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 361.1,
+  "out": "**[FAKT] 195 dni.** Od 2026-03-19 08:21 (najstarsza sesja w `~/.hermes/state.db`) do dziś 2026-09-30 05:23 CEST.\n\n**[NIE WIEM]** tego nie da się ustal",
+  "err": ""
+ },
+ {
+  "task_id": "E02",
+  "cat": "EXTERNAL",
+  "label": "TAK",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "W którym roku odbędzie się następne COP31? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 167.3,
+  "out": "2026 (9-20 listopada, Antalya, Turcja).\n",
+  "err": ""
+ },
+ {
+  "task_id": "T01",
+  "cat": "TRAP",
+  "label": "NIE",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 180.6,
+  "out": "~100+ folderów \"docs\". Najważniejsze u Ciebie:\n\n/Users/paulinajanowska/AI/ANTIGRAVITY/DOCS\n/Users/paulinajanowska/AI/hermes-docs\n/Users/paulinajanowsk",
+  "err": ""
+ },
+ {
+  "task_id": "T02",
+  "cat": "TRAP",
+  "label": "NIE",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 173.3,
+  "out": "Dwa środowiska, oba aktywne.\n\n**1. Systemowy Python 3.13.7** (`/usr/local/bin/python3`) - ~290 pakietów. Najważniejsze:\n- AI/LLM: `anthropic 1.0.0`, `",
+  "err": ""
+ },
+ {
+  "task_id": "T02",
+  "cat": "TRAP",
+  "label": "NIE",
+  "variant": "B-skill-expertise",
+  "skills": [
+   "expertise-research-first"
+  ],
+  "prompt": "Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 212.8,
+  "out": "Dwa środowiska Python:\n\n**1. Systemowy `/usr/local/bin/python3` = Python 3.13.7, 250 paczek**\n\nKluczowe:\n- AI/LLM: `anthropic 1.0.0`, `openai 3.3.1`, ",
+  "err": ""
+ },
+ {
+  "task_id": "T02",
+  "cat": "TRAP",
+  "label": "NIE",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Jakie masz zainstalowane biblioteki Pythona? Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 197.4,
+  "out": "250 paczek w systemowym Python3 (macOS /Users/paulinajanowska). Najważniejsze:\n\n**Nasze własne (editable, z dysku)**\n- hyperspacedb 3.0.4 → EXTERNAL/h",
+  "err": ""
+ },
+ {
+  "task_id": "T01",
+  "cat": "TRAP",
+  "label": "NIE",
+  "variant": "C-skill-deepresearch",
+  "skills": [
+   "deepresearch"
+  ],
+  "prompt": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 398.5,
+  "out": "Foldery z \"docs\" w nazwie, własne (~/AI + katalog główny), bez vendorów/node_modules:\n\n- ~/AI/ANTIGRAVITY/DOCS\n- ~/AI/hermes-docs\n- ~/AI/meta-dev-docs",
+  "err": ""
+ },
+ {
+  "task_id": "T01",
+  "cat": "TRAP",
+  "label": "NIE",
+  "variant": "A-baseline",
+  "skills": [],
+  "prompt": "Znajdź na wszystkich dyskach folder o nazwie zawierającej docs Odpowiedz krotko, interesuje mnie wylacznie wynik.",
+  "rc": 0,
+  "secs": 475.8,
+  "out": "Znalezione (bez szumu node_modules i snapshotów TimeMachine):\n\n**Główny dysk (512G, 30Gi wolne)**\n- `/Users/paulinajanowska/AI/ANTIGRAVITY/DOCS`\n- `/U",
+  "err": ""
+ }
+]

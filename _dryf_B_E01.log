@@ -1,0 +1,16 @@
+DRYF E01 n=12 skills=['expertise-research-first']
+  [1/12] rc=0 151s n=5 first_src=1 ['terminal', 'web_extract', 'terminal', 'terminal', 'terminal']
+  [2/12] rc=0 120s n=2 first_src=None ['terminal', 'terminal']
+  [3/12] rc=2 106s n=0 first_src=None []
+  [4/12] rc=0 119s n=0 first_src=None []
+  [5/12] rc=0 149s n=5 first_src=1 ['terminal', 'web_extract', 'terminal', 'terminal', 'terminal']
+  [6/12] rc=0 243s n=1 first_src=None ['terminal']
+  [7/12] rc=2 111s n=2 first_src=1 ['terminal', 'web_extract']
+  [8/12] rc=0 164s n=2 first_src=None ['terminal', 'terminal']
+  [9/12] rc=0 160s n=6 first_src=0 ['web_extract', 'terminal', 'terminal', 'web_search', 'terminal', 'web_extract']
+  [10/12] rc=0 193s n=0 first_src=None []
+  [11/12] rc=0 195s n=0 first_src=None []
+  [12/12] rc=0 186s n=10 first_src=0 ['web_extract', 'terminal', 'search_files', 'web_extract', 'web_extract', 'search_files']
+
+first_src: Counter({1: 3, 0: 2})
+n_tools:   Counter({0: 4, 2: 3, 5: 2, 1: 1, 6: 1, 10: 1})
